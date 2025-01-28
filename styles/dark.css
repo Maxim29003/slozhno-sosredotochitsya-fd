@@ -1,21 +1,10 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
+  --bg-color: #000028;                         
+  --bg-image: url(../images/cover-image-dark.png);   
+  --header-footer-color: #db00ff;       
 
-.theme-dark .page {
-  --bg-color: #000028;                         /* Цвет фона страницы */
-  --bg-image: url(../images/cover-image.png);  /* Фоновое изображение */
-  --header-footer-color: #db00ff;              /* Цвет заголовка и подвала */
-  --header-footer-shadow: 4px 4px 0 var(--accent-color); /* Тень для заголовка и подвала */
+  --header-footer-shadow: 4px 4px 0 var(--accent-color);  
   --link-shadow: 2px 2px 0 var(--accent-color);     
 
   --text-color: #f1b2ce;                
@@ -30,10 +19,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root{
-    --bg-color: #000028;                         /* Цвет фона страницы */
-    --bg-image: url(../images/cover-image.png);  /* Фоновое изображение */
-    --header-footer-color: #db00ff;              /* Цвет заголовка и подвала */
-    --header-footer-shadow: 4px 4px 0 var(--accent-color); /* Тень для заголовка и подвала */
+    --bg-color: #000028;                          
+    --bg-image: url(../images/cover-image-dark.png);   
+    --header-footer-color: #db00ff; 
+                 
+    --header-footer-shadow: 4px 4px 0 var(--accent-color);  
     --link-shadow: 2px 2px 0 var(--accent-color);     
   
     --text-color: #f1b2ce;                

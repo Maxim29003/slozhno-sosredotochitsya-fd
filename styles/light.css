@@ -1,19 +1,10 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-
-}
-
-.theme-light .page {
-  --bg-color: #fff1f7;                         /* Цвет фона страницы */
-  --bg-image: url(../images/cover-image-light.png);  /* Фоновое изображение */
-  --header-footer-color: #ffc2e6;              /* Цвет заголовка и подвала */
-  --header-footer-shadow: 4px 4px 0 var(--accent-color); /* Тень для заголовка и подвала */
-  --link-shadow: 2px 2px 0 var(--accent-color);          /* Тень для ссылок */
+  --bg-color: #fff1f7;                       
+  --bg-image: url(../images/cover-image-light.png);  
+  --header-footer-color: #ffc2e6; 
+              
+  --header-footer-shadow: 4px 4px 0 var(--accent-color); 
+  --link-shadow: 2px 2px 0 var(--accent-color);         
 
   --rec-visibility: hidden;
 
@@ -26,11 +17,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #fff1f7;                         /* Цвет фона страницы */
-    --bg-image: url(../images/cover-image-light.png);  /* Фоновое изображение */
-    --header-footer-color: #ffc2e6;              /* Цвет заголовка и подвала */
-    --header-footer-shadow: 4px 4px 0 var(--accent-color); /* Тень для заголовка и подвала */
-    --link-shadow: 2px 2px 0 var(--accent-color);          /* Тень для ссылок */
+    --bg-color: #fff1f7;                         
+    --bg-image: url(../images/cover-image-light.png); 
+    --header-footer-color: #ffc2e6;
+
+    --header-footer-shadow: 4px 4px 0 var(--accent-color); 
+    --link-shadow: 2px 2px 0 var(--accent-color);         
   
     --rec-visibility: hidden;
   
