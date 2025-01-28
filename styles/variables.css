@@ -5,15 +5,7 @@
 
 :root {
   --font-family: 'IBM Plex Mono', sans-serif;  /* Шрифт по умолчанию */
-  --bg-color: #000028;                         /* Цвет фона страницы */
-  --bg-image: url(../images/cover-image-dark.png);  /* Фоновое изображение */
-  --header-footer-color: #db00ff;              /* Цвет заголовка и подвала */
-  --header-footer-shadow: 4px 4px 0 var(--accent-color); /* Тень для заголовка и подвала */
-  --link-shadow: 4px 4px 0 var(--accent-color);          /* Тень для ссылок */
-  --default-color: #f1b2ce;                    /* Цвет по умолчанию для текста */
-  --accent-color: #ff0070;                     /* Акцентный цвет элемента */
-  --secondary-color: #000028;                  /* Вторичный цвет для выделения */
-
+  
   --header-footer-padding: 10px;      /* Отступы для заголовка и подвала */
   --main-padding-block: 40px;         /* Вертикальные отступы для основного контента */
   --main-padding-inline: 10px;        /* Горизонтальные отступы для основного контента */
