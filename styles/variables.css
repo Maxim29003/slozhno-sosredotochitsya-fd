@@ -1,11 +1,9 @@
 :root {
-  --font-family: 'IBM Plex Mono', sans-serif;  /* Шрифт по умолчанию */
-  --header-footer-padding: 10px;      /* Отступы для заголовка и подвала */
-  --main-padding-block: 40px;         /* Вертикальные отступы для основного контента */
-  --main-padding-inline: 10px;        /* Горизонтальные отступы для основного контента */
-  --large-gap: 50px;                  /* Большой промежуток между элементами */
-  --gap-small: 10px;                  /* Маленький промежуток */
-  --gap-medium: 20px;                 /* Средний промежуток */
+  --font-family: "IBM Plex Mono", sans-serif;
+  --header-footer-padding: 10px;
+  --main-padding-block: 40px;
+  --main-padding-inline: 10px;
+  --large-gap: 50px;
+  --gap-small: 10px;
+  --gap-medium: 20px;
 }
-
-
